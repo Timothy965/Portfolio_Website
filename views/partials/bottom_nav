@@ -1,0 +1,10 @@
+<!--Bottom nav-->
+<br><br><br>
+  <footer>
+    
+  <nav class="navbar fixed-bottom navbar-dark" style="background-color: #008080;">
+    <div class="container-fluid">
+      <h6 class="navbar-text">&copy;Copyright Timothy Issac Thomas, 301229888</h6>
+    </div>
+  </nav>
+ </footer>

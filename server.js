@@ -5,7 +5,7 @@
  */
 
 var app = require('./app');
-var debug = require('debug')('comp229-assignment01-301151740:server');
+var debug = require('debug')('comp229-assignment01-301229888:server');
 var http = require('http');
 
 /**

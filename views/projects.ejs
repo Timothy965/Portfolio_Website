@@ -1,0 +1,48 @@
+<%- include partials/header.ejs %> 
+
+ <%- include partials/main_nav.ejs %> 
+  <!--Main Content-->
+  <main>
+  <div class="p-5 bg-light">
+
+    <div class="text-center">
+    <h3><%=title %> Page</h3>
+    
+    <h1 class="display-5" >My Projects</h1><br></div>
+
+    <h3 class="display-4">• Twit Mine: Mining Twitter Data with Python</h3>
+    <p>Developed a group project on Text Mining Twitter using some realistic data taken during 
+      a sport event. For the project, we have downloaded some data using the streaming API, 
+      pre-processed the data in JSON format and extracted some interesting terms and hashtags 
+      from the tweets. Our project has also introduced the concept of term co-occurrence, 
+      shown how to build a co-occurrence matrix, and discussed how to use it to find some 
+      interesting insight. <br>
+    
+      Continuing on, we created a plot using JavaScript with Vincent and using Leaflet 
+      JavaScript library, used it to create an interactive map with the help of GeoJSON. 
+      Using Python, we’ve been able to transform our data into a common format (GeoJSON) 
+      that can be passed onto JavaScript for visualization</p>
+
+      <br>
+
+    <h3 class="display-4">• Air Quality Data Logger For Better Environment</h3>
+    <p>Built an Air Quality Logger in a team, created using BalenaFin, NXP IoT 
+      Prototyping Kit based out of Python, InfluxDB, Grafana Dashboard and Bash.Programmed NXP Rapid IoT Kit to get sensor data and then push it via 
+      Bluetooth to RaspberryPi OS which hosts as the server and stores the data 
+      incoming and outgoing. <br> Finally, we have used InfluxDB to store and push our sensor data to Grafana 
+      Dashboard. Grafana helps us in plotting the sensor data as the dashboard front-end</p>
+    </div>
+  </main>
+  <%- include partials/bottom_nav %> 
+ <%- include partials/footer.ejs %> 
+   
+
+
+
+
+
+
+
+
+
+

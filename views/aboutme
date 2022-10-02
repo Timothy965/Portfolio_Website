@@ -1,0 +1,20 @@
+<%- include partials/header.ejs %> 
+
+ <%- include partials/main_nav.ejs %> 
+  <!--Main Content-->
+  <main>
+  <div class="p-5 text-center bg-light">
+    <h3><%=title %> Page</h3>
+    <p><strong>Timothy Thomas</strong></p>
+    <ul class="list-unstyled">
+    <li>My name is Timothy Thomas, also known as "Michael"</li>
+    <li>Currently chasing my dreams of becoming a Data Analyst</li>
+  <li><a class="btn btn-link" href="/Assets/documents/Resume.pdf" role="Button">Resume</a></li>
+</ul>
+    <img src="/Assets/images/main.jpg" class="img-rounded" alt="Photo" style="width:30%">
+    
+  </div>
+  </main>
+  <%- include partials/bottom_nav %> 
+ <%- include partials/footer.ejs %> 
+   
